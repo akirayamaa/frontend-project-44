@@ -12,3 +12,6 @@ https://asciinema.org/a/4gw4DVRWNxLCdWQ6XrJgsMiFD
 
 Пример brain-calc 
 https://asciinema.org/a/EDJ82G4uLPvIf0cDaLRFxItqp
+
+Пример brain-gcd
+https://asciinema.org/a/UlWZdqHetr0nT01JMudqMYhMm
