@@ -15,3 +15,6 @@ https://asciinema.org/a/EDJ82G4uLPvIf0cDaLRFxItqp
 
 Пример brain-gcd
 https://asciinema.org/a/UlWZdqHetr0nT01JMudqMYhMm
+
+Пример brain-progression
+https://asciinema.org/a/SJYhbxm8VyOQG6rvwyGbKsnNf
