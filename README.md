@@ -8,7 +8,7 @@
 npm install -g @hexlet/code
 
 Пример brain-even
-https://asciinema.org/connect/61ceed02-9a57-4455-8a5a-46718681745a
+https://asciinema.org/a/4gw4DVRWNxLCdWQ6XrJgsMiFD
 
 Пример brain-calc 
 https://asciinema.org/a/EDJ82G4uLPvIf0cDaLRFxItqp
