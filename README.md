@@ -18,3 +18,6 @@ https://asciinema.org/a/UlWZdqHetr0nT01JMudqMYhMm
 
 Пример brain-progression
 https://asciinema.org/a/SJYhbxm8VyOQG6rvwyGbKsnNf
+
+Пример brain-prime 
+https://asciinema.org/a/cTijsNA73LBjZVpM4ed6lQyHh
