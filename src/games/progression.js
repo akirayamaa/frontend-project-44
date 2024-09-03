@@ -14,7 +14,7 @@ const generateRound = () => {
   progression[hiddenIndex] = '..';
   const question = progression.join(' ');
   const correctAnswer = String(hiddenValue);
-  
+
   return { question, correctAnswer };
 };
 

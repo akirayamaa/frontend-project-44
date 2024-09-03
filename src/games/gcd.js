@@ -9,10 +9,12 @@ const getRandomNumber = (min, max) => {
 const rules = 'Find the greatest common divisor of given numbers.';
 
 const gcd = (a, b) => {
-  while (b !== 0) {
-    [a, b] = [b, a % b];
+  let x = a;
+  let y = b;
+  while (y !== 0) {
+    [x, y] = [y, x % y];
   }
-  return a;
+  return x;
 };
 
 const generateRound = () => {
