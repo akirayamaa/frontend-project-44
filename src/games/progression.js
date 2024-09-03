@@ -1,8 +1,8 @@
 import { getRandomNumber } from '../index.js';
 
-const getProgression = (length, start = 1, step = 2) => {
-  return Array.from({ length }, (_, i) => start + i * step);
-};
+const getProgression = (length, start = 1, step = 2) => (
+  Array.from({ length }, (_, i) => start + i * step)
+);
 
 const generateRound = () => {
   const length = Math.floor(Math.random() * 6) + 5;
