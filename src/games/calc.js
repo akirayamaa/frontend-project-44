@@ -1,8 +1,10 @@
-const getRandomExpression = () => {
+import { playGame, getRandomNumber } from '../index.js';
+
+const generateRound = () => {
   const operators = ['+', '-', '*'];
   const operator = operators[Math.floor(Math.random() * operators.length)];
-  const num1 = Math.floor(Math.random() * 100);
-  const num2 = Math.floor(Math.random() * 100);
+  const num1 = getRandomNumber(1, 100);
+  const num2 = getRandomNumber(1, 100);
 
   let question;
   let correctAnswer;
@@ -27,4 +29,10 @@ const getRandomExpression = () => {
   return { question, correctAnswer: correctAnswer.toString() };
 };
 
-export default getRandomExpression;
+const description = 'What is the result of the expression?';
+
+const playCalcGame = () => {
+  playGame(description, generateRound);
+};
+
+export default playCalcGame;
