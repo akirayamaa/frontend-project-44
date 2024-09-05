@@ -1,4 +1,3 @@
-
 import { playGame, getRandomNumber } from '../index.js';
 
 const generateRound = () => {

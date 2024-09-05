@@ -12,9 +12,9 @@ const generateRound = () => {
   const hiddenIndex = getRandomNumber(0, length - 1);
   const hiddenValue = progression[hiddenIndex];
   progression[hiddenIndex] = '..';
-  return { 
+  return {
     question: progression.join(' '),
-    correctAnswer: String(hiddenValue)
+    correctAnswer: String(hiddenValue),
   };
 };
 
@@ -30,7 +30,8 @@ const playProgressionGame = () => {
 
     if (userAnswer !== correctAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      return console.log(`Let's try again, ${name}!`);
+      console.log(`Let's try again, ${name}!`);
+      return;
     }
     console.log('Correct!');
   }
