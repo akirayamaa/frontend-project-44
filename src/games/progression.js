@@ -1,8 +1,7 @@
 import readlineSync from 'readline-sync';
 import { getRandomNumber } from '../index.js';
 
-const generateProgression = (length, start, step) =>
-  Array.from({ length }, (_, i) => start + i * step);
+const generateProgression = (length, start, step) => Array.from({ length }, (_, i) => start + i * step);
 
 const generateRound = () => {
   const length = getRandomNumber(5, 10);
@@ -23,7 +22,7 @@ const playProgressionGame = () => {
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}! What number is missing in the progression?`);
 
-  for (let round = 0; round < 3; round++) {
+  for (let round = 0; round < 3; round += 1) {
     const { question, correctAnswer } = generateRound();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');

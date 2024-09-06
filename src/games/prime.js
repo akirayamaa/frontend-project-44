@@ -26,7 +26,7 @@ const playPrimeGame = () => {
   console.log(`Hello, ${name}!`);
   console.log(description);
 
-  for (let round = 0; round < 3; round++) {
+  for (let round = 0; round < 3; round += 1) {
     const { question, correctAnswer } = generateRound();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
