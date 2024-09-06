@@ -1,7 +1,8 @@
 import readlineSync from 'readline-sync';
 import { getRandomNumber } from '../index.js';
 
-const generateProgression = (length, start, step) => Array.from({ length }, (_, i) => start + i * step);
+const generateProgression = (length, start, step) =>
+  Array.from({ length }, (_, i) => start + i * step);
 
 const generateRound = () => {
   const length = getRandomNumber(5, 10);
