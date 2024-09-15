@@ -1,5 +1,5 @@
-import { playGame } from '../index.js';
-import { getRandomNumber } from '../utils.js';
+import playGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const generateRound = () => {
   const num1 = getRandomNumber(1, 100);
