@@ -1,8 +1,11 @@
-import { playGame, getRandomNumber } from '../index.js';
+import { playGame } from '../index.js';
+import { getRandomNumber } from '../utils.js';
+
+const isEven = (num) => num % 2 === 0;
 
 const generateRound = () => {
   const num = getRandomNumber(1, 100);
-  const correctAnswer = num % 2 === 0 ? 'yes' : 'no';
+  const correctAnswer = isEven(num) ? 'yes' : 'no';
   const question = num.toString();
 
   return { question, correctAnswer };
